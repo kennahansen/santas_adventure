@@ -29,6 +29,13 @@ public class Reindeer {
     public Reindeer() {
         this.health = DEFAULT_HEALTH;
     }
+    
+    /**
+     * prints reindeer health to command line for user to monitor.
+     */
+    public void printStats() {
+    		System.out.println("Your reideer\'s health is: " + this.health + "!");
+    }
 
     /**
      * getter for health.
