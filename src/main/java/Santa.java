@@ -98,14 +98,14 @@ public class Santa {
 	 * increments cheer.
 	 */
 	public void incrementCheer() {
-		this.setCheer(this.getCheer + INCREMENT);
+		this.setCheer(this.getCheer() + INCREMENT);
 	}
 	
 	/**
 	 * decrements cheer.
 	 */
 	public void decrementCheer() {
-		this.setCheer(this.getCheer - DECREMENT);
+		this.setCheer(this.getCheer() - DECREMENT);
 	}
 	
 	/**
@@ -120,7 +120,7 @@ public class Santa {
 	 * setter for warmth.
 	 * @param newWarmth int
 	 */
-	public void setWarmt(int newWarmth) {
+	public void setWarmth(int newWarmth) {
 		this.cheer = newWarmth;
 		if (this.warmth < 0) {
 			this.warmth = 0;
@@ -131,14 +131,14 @@ public class Santa {
 	 * increments warmth.
 	 */
 	public void incrementWarmth() {
-		this.setWarmth(this.getWarmth + INCREMENT);
+		this.setWarmth(this.getWarmth() + INCREMENT);
 	}
 	
 	/**
 	 * decrements warmth.
 	 */
 	public void decrementWarmth() {
-		this.setWarmth(this.getWarmth - DECREMENT);
+		this.setWarmth(this.getWarmth() - DECREMENT);
 	}
 	
 	/**
@@ -164,14 +164,14 @@ public class Santa {
 	 * increments holidaySpirit.
 	 */
 	public void incrementHolidaySpirit() {
-		this.setHolidaySpirit(this.getHolidaySpirit + INCREMENT);
+		this.setHolidaySpirit(this.getHolidaySpirit() + INCREMENT);
 	}
 	
 	/**
 	 * decrements holidaySpirit.
 	 */
 	public void decrementHolidaySpirit() {
-		this.setHolidaySpirit(this.getHolidaySpirit - DECREMENT);
+		this.setHolidaySpirit(this.getHolidaySpirit() - DECREMENT);
 	}
 	
 	/**

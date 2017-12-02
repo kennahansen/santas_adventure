@@ -27,7 +27,7 @@ public class SantasAdventure {
     /**
      * Main outdoors prompt. Funnels user to one of the houses, or loops back to goOutdoors()
      */
-    public final void goOutdoors() {
+    public static void goOutdoors() {
     		System.out.println("As dry leaves that before the wild hurricane fly,");
     		System.out.println("When they meet with an obstacle, mount to the sky;");
     		System.out.println("So up to the house-top the coursers they flew,");
@@ -56,7 +56,7 @@ public class SantasAdventure {
     /**
      * Method for doing tricks. returns user back to outdoor methods.
      */
-    public final void goTricks() {
+    public static void goTricks() {
         System.out.println("Would you like to [1] Do a flip? [2] Laugh merrily"
         		+ " or [3] Spread good cheer?");
         Scanner tricksSc = new Scanner(System.in);
@@ -84,11 +84,15 @@ public class SantasAdventure {
     /**
      * main method for exploring the house.
      */
-    public void goHouse() {
+    public static void goHouse() {
+    		//Scanner houseSc = new Scanner(System.in);
+		System.out.print("This code is still under construction!!!");
     }
-    public void goApartment() {
+    public static void goApartment() {
+    		System.out.print("This code is still under construction!!!");
     }
-    public void goMansion() {
+    public static void goMansion() {
+		System.out.print("This code is still under construction!!!");
     }
 
 }
