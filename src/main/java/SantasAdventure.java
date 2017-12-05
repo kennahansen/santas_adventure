@@ -133,7 +133,7 @@ public class SantasAdventure {
 		 System.out.println("Do you: [1] Hide [2] Stuff stockings quickly! even though it's messy "
 		 		+ "[3] speak with the child");
 		int houseOneNum = sc.nextInt();
-	     switch (houseTwoNum) {
+	     switch (houseOneNum) {
 	     		case 1: System.out.println("\"You are santa and hiding!! this is pathetic\"");
 	     			santa.decrementHolidaySpirit();
 	     		case 2: System.out.println("\"Wow you really shouldn't have done that so messily!"
